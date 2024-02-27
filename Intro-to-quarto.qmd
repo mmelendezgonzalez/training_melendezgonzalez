@@ -1,0 +1,39 @@
+---
+title: "Intro to Quarto"
+format: html
+---
+
+# Header 1
+
+## Header 2
+
+##### Header 5
+
+**this is bold**
+
+*this is italic*
+
+-   item 1
+-   item 2
+-   item 3
+
+Citation()
+
+| Col1        | Col2 | Col3 |
+|-------------|------|------|
+| thing one   |      |      |
+| thing two   |      |      |
+| thing three |      |      |
+|             |      |      |
+|             |      |      |
+
+```{r}
+x <- 4*8
+hights_ft <- c(5.7, 6.8, 8.9)
+
+```
+
+```{r}
+
+```
+
