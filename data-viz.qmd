@@ -133,5 +133,28 @@ ggsave("plots/annual_salmon_esc_region.jpg", width = 8, height = 6, units = "in"
 
 
 
+## Interactive visualization
 
+Subset data
+```{r}
+location <- escape %>% 
+  distinct(location, latitude, longitude) %>% 
+  drop_na()
+```
+
+Using 'DT' package for interactive tables
+
+```{r}
+datatable(location)
+```
+
+Use the leaflet
+
+```{r}
+leaflet(location) %>% 
+  addTiles() %>% 
+  addMarkers(lng = ~longitude,
+             lat = ~latitude,
+             popup = ~location)
+```
 
