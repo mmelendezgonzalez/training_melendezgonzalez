@@ -1,6 +1,14 @@
 ---
-title: "GitHub Pages Example"
+title: "Arctic Data Center Data Science Training"
 format: html
 ---
 
-Hello World!
+## Course Lesson
+- [Literate Analysis](mini-literature-analysis.html)
+- [Cleaning and Wrangling Data](cleaning and wrangling.html)
+- Data Visualization
+- Functions and Packages
+
+## Course Practice Session
+- Practice I
+- Practtice II
