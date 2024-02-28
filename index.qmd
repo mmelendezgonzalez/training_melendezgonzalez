@@ -6,7 +6,7 @@ format: html
 ## Course Lesson
 - [Literate Analysis](mini-literature-analysis.html)
 - [Cleaning and Wrangling Data](cleaning and wrangling.html)
-- Data Visualization
+- [Data Visualization](data-viz.html)
 - Functions and Packages
 
 ## Course Practice Session
